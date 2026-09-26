@@ -1,0 +1,51 @@
+# ============================================================
+# Travel Agency Management System (TAMS) - Requirements
+# Company: Hamza Travels & Tours
+# Python 3.12+
+# ============================================================
+
+# Core UI Framework
+PySide6>=6.7.0
+
+# Database
+SQLAlchemy>=2.0.0
+psycopg2-binary>=2.9.0
+alembic>=1.13.0
+
+# Fallback / Embedded Database
+# SQLite is built into Python (no install needed)
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Security & Auth
+bcrypt>=4.0.0
+cryptography>=41.0.0
+
+# Reports & Documents
+reportlab>=4.0.0
+openpyxl>=3.1.0
+Pillow>=10.0.0
+
+# Charts (matplotlib with Qt backend)
+matplotlib>=3.7.0
+
+# Date/Time utilities
+python-dateutil>=2.9.0
+
+# Utilities
+humanize>=4.0.0
+phonenumbers>=8.0.0
+
+# Passport Scanner
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+mrz>=0.6.0
+
+# Testing (dev only)
+Faker>=25.0.0
+pytest>=8.0.0
+pytest-qt>=4.4.0
+
+# Type checking (dev only)
+mypy>=1.0.0

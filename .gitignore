@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# IDE / Editor
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PyInstaller build artifacts
+dist/
+build/
+build_final/
+installer_output/
+*.spec
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+debug-*.log
+error.log
+
+# Secrets / env config
+.env
+
+# Generated PDFs / reports output
+*.pdf
+reports/output/
+output/
+invoices/
+vouchers/
+documents/
+backups/
+
+# Temp / scratch
+temp/
+scratch/
+scriptsnotepad/
+
+# Test cache
+.pytest_cache/
+
+# CSV exports
+*.csv
+
+# Alembic pycache
+alembic/__pycache__/
+
+# Data folder (large data files)
+data/
